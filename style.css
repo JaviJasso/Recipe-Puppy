@@ -1,0 +1,29 @@
+#searchTerm {
+  height: 29px;
+  width: 230px;
+  padding-left: 60px;
+}
+
+#searchButton {
+  height: 21px;
+  width: 35px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 1em 1em;
+}
+/*when targeting the img width 20% due to the width of total screen.*/
+
+li img {
+  width: 200px;
+  height: 200px;
+}
